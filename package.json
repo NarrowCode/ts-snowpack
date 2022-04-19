@@ -8,8 +8,7 @@
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "start": "npm run lint & snowpack dev",
-    "build": "snowpack build",
-    "prebuild": "tsc && npm run lint"
+    "build": "snowpack build"
   },
   "author": "Andreas Steinkellner",
   "license": "MIT",
